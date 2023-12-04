@@ -1,0 +1,252 @@
+{
+  "contracts": {
+    "OpenZeppelin/openzeppelin-contracts@4.9.3/Address": "1ce946f6a4eaa185320328620ccf999b9e86db7c",
+    "OpenZeppelin/openzeppelin-contracts@4.9.3/ERC721": "3abddb3b491188aca78ae8d60c90de8bd60a2c93",
+    "OpenZeppelin/openzeppelin-contracts@4.9.3/Math": "1ce946f6a4eaa185320328620ccf999b9e86db7c",
+    "OpenZeppelin/openzeppelin-contracts@4.9.3/SignedMath": "1ce946f6a4eaa185320328620ccf999b9e86db7c",
+    "bearsNFT": "594689d6bce06cf71390733e29968877a28bbbe0"
+  },
+  "tests": {
+    "tests/test_approval.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "9049e57898c963b23da54eecf3030df75e8ade0a",
+      "txhash": []
+    },
+    "tests/test_balanceOf.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "bd2c9241a2806df229d50034824f6944e7d3cbf1",
+      "txhash": []
+    },
+    "tests/test_getBearStats.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "f9c2897a053669ad8852ea81d4896ab7aeeb22a7",
+      "txhash": []
+    },
+    "tests/test_getNumberOfBears.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "87063479a630d59282a6abff45f219e68221129e",
+      "txhash": []
+    },
+    "tests/test_isAprrovedForAll.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "a6a5b91fc182cb15b80ee41545de8bef69946e2a",
+      "txhash": []
+    },
+    "tests/test_maxTokenPerAdress.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "26cba81ca566bc6a5f226268406e9c00338452b1",
+      "txhash": [
+        "9c31dad7e96aa6686d7553c2eff67af5a7c06206"
+      ]
+    },
+    "tests/test_mint.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "46795bb4c6ea1b47a66b97b6a1575eabe9d5de92",
+      "txhash": [
+        "a0e7b3a1f92c5e31f77220bf781656d0dbfe92a3"
+      ]
+    },
+    "tests/test_ownerOf.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "d2cff96e08e1e3fcaec58a66747faeec2ccf58a8",
+      "txhash": []
+    },
+    "tests/test_safeTransferFrom.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "9fa6483e7888775ad18ef20ce53f61a67d488a04",
+      "txhash": [
+        "a727d9593dd852238d3ff1e20d4168fe079d82cb"
+      ]
+    },
+    "tests/test_setTokenURI.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "e58d0ab7e8a8455a0945e7b27a61fe57a7538f28",
+      "txhash": [
+        "fc9db7653f0f846750d477f12bf66384a0892da3"
+      ]
+    },
+    "tests/test_tokenURI.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "1b12b29412bf0f3afcc16c3c5e1336cfc37e5794",
+      "txhash": []
+    },
+    "tests/test_transfer.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "c29c61f72e1790cff72dece1bdefa8cee174b097",
+      "txhash": [
+        "03a52d53d5c91cdc2eeb444b46ec11f2efed6ed0"
+      ]
+    }
+  },
+  "tx": {
+    "03a52d53d5c91cdc2eeb444b46ec11f2efed6ed0": {
+      "bearsNFT": {
+        "0": [
+          [],
+          [],
+          []
+        ],
+        "1": [
+          [
+            5,
+            6,
+            14,
+            20,
+            38,
+            41,
+            45
+          ],
+          [
+            87
+          ],
+          []
+        ],
+        "12": [
+          [],
+          [],
+          []
+        ],
+        "6": [
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    "9c31dad7e96aa6686d7553c2eff67af5a7c06206": {
+      "bearsNFT": {
+        "1": [
+          [
+            21,
+            22
+          ],
+          [],
+          [
+            88
+          ]
+        ],
+        "12": [
+          [
+            27,
+            28
+          ],
+          [
+            80
+          ],
+          [
+            79
+          ]
+        ]
+      }
+    },
+    "a0e7b3a1f92c5e31f77220bf781656d0dbfe92a3": {
+      "bearsNFT": {
+        "1": [
+          [],
+          [],
+          []
+        ],
+        "12": [
+          [
+            27
+          ],
+          [
+            79
+          ],
+          []
+        ]
+      }
+    },
+    "a727d9593dd852238d3ff1e20d4168fe079d82cb": {
+      "bearsNFT": {
+        "0": [
+          [],
+          [],
+          []
+        ],
+        "1": [
+          [
+            5,
+            6,
+            19,
+            20,
+            34,
+            38,
+            41,
+            45
+          ],
+          [
+            89
+          ],
+          []
+        ],
+        "12": [
+          [],
+          [],
+          []
+        ],
+        "6": [
+          [],
+          [],
+          []
+        ]
+      }
+    },
+    "fc9db7653f0f846750d477f12bf66384a0892da3": {
+      "bearsNFT": {
+        "0": [
+          [
+            44
+          ],
+          [],
+          [
+            100
+          ]
+        ],
+        "1": [
+          [
+            11
+          ],
+          [],
+          []
+        ],
+        "12": [
+          [
+            12
+          ],
+          [],
+          []
+        ],
+        "6": [
+          [],
+          [],
+          []
+        ]
+      }
+    }
+  }
+}
